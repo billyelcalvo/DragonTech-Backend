@@ -54,7 +54,7 @@ The web application is thinking for have 2 servers running, one only for adminis
 
 | As a...       | I want to...                                                                        | So that...                                                                             |
 | ------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| Administrator | Preview the frontend after I apply the changes on the products or create discounts. | Someway create a temporaly array on the backend and delete it after close the preview. |
+| Administrator | Preview the frontend after I apply the changes on the products or create discounts. | Someway create a temporaly page with the new changes just clicking a button. |
 | Administrator | See the log historial                                                               | Save all the records with Observer Pattern                                             |
 | Administrator | Create discounts easily.                                                            | Create buttons for facilitate the administrator to create discounts code,              |
 | User          | I want to buy products safely without bugs.                                         | Do a correct cofiguration about Stripe on the backend.                                 |

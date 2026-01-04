@@ -1,5 +1,6 @@
 import express, { type Express } from "express";
-import { createProductController } from "../../dragontech/controllers/createProductController.js";
+import { createProductController } from "../../dragontech/domain/controllers/createProductController.js";
+import { envs } from "../../shared/models/env.js";
 
 export class Server {
     private app: Express;
@@ -7,7 +8,7 @@ export class Server {
 
     constructor() {
         this.app = express();
-        this.port = 3000;
+        this.port = envs.PORT;
     }
 
     applyRoutes() {
